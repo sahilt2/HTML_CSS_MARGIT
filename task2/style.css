@@ -1,0 +1,16 @@
+body {
+    background-color: lightsalmon;
+    background-image:url('abstractback1.jpg');
+}
+img {
+    width:200px
+}
+h1,h2,h3,h4,h5,h6{
+    display: inline;
+    display: block; /* last one stands */
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;  /* inline-block helps to change the width or space */ 
+    width: 200px; /* inline or block element doesnt change the spce of width */
+}

@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(71, 190, 208);
+}
+/* h1 {
+    text-align: center;
+} */
+p {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#idexample {
+    color: black;
+}
+.classexample {
+    color: blueviolet;
+}
