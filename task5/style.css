@@ -1,0 +1,96 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #185337;
+    font-family: 'Raleway', sans-serif; ;
+}
+
+.container {
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    margin: 40%;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.sign h1{
+   margin-left: 80px;
+   margin-top: 10px;
+}
+h2 {
+    margin-top: 10px;
+   margin-left: 25px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  
+}
+.log {
+    margin-top: 10px;
+    margin-left: 40%;
+    color: white;
+    
+}
+.subhead h2 {
+    font-size:16px;
+text-align: left;
+font-weight: 350;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    color: darkorange;
+}
+form label{
+    font-size: 8pt;
+    font-weight: lighter;
+  
+   
+    
+
+}
+form {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form input {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 35px;
+    border: solid  0.5px ;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: coral;
+    color: white;
+    width: 210px;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+   
+}
+.terms p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 480;
+    margin-top: 10px;
+}
