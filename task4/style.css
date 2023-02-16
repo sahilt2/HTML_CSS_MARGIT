@@ -1,0 +1,66 @@
+*{
+margin: 0;                 /* to over write the default margin of 8px in browser */
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Railway', sans-serif;
+ 
+}
+input, textarea, select,button {        
+    font-family: inherit;
+}
+
+
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;           /* clicking link or button is required to be minimum 45px */
+    padding: 10px;
+  
+
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    display: block;       /* cuz a is an inline element */
+    
+
+
+
+}
+main, header,h2 {
+    padding: 20px;
+}
+main h2 {
+    font-size: 50px;
+    padding: 180px;
+    text-align: center;
+
+}
+
+h2, .box {
+    padding-left: 0px;
+}
+
+.box {
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    margin:20px;   
+    margin-left: 0px;                  /* margin:0,20px....vertical 0 and horizontal 20 */
+    float: left;                     /* use float only to wrap words around image */
+}
+
+
+p{
+    line-height: 1.2;
+}
