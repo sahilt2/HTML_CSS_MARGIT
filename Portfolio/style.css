@@ -1,16 +1,226 @@
+:root {
+  --bg-color: white;
+  --newBg-color: black;
+  --footBg-color: #6b705c;
+  --buttonBg-color: darkgoldenrod;
+  --text-color-light: white;
+  --cardLink-text-color: darkorange;
+  --font: "Raleway", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------GLOBAL SETTINGS--------- */
 body {
-    background-color: #AECFD6;
+  font-family: var(--font);
 }
-nav {
-    background-color: #223E44;
-}
+
 nav ul li {
-    list-style-type: none;
+  display: inline-block;
+  margin: 1rem;
+}
+a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(pic/herobanner.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sticky.newBg {
+  background-color: var(--newBg-color);
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: rgb(133, 28, 28);
+}
+h2 {
+  margin: 1rem;
+  padding: 1rem;
+}
+header.bg {
+  background-image: hide;
+}
+
+#project {
+  background-color: white;
+  height: 50vh;
+}
+.about {
+  background-color: #ddbea9;
+  height: 50vh;
+}
+
+.about-card img {
+  float: right;
+  margin: 1rem;
+}
+.about-card p {
+  margin: 1rem;
+  padding: 1rem;
+}
+.skill img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: var(--footBg-color);
+  color: var(--text-color-light);
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* .down label{
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    width: 200px;
 }
-a{
-    color:  #AECFD6;
-    text-decoration: none;
+.down form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
 }
+
+#msg {
+    height: 60px;
+    text-align: left;
+} */
+button {
+  border: none;
+  background-color: var(--buttonBg-color);
+  color: var(--text-color-light);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+#project img {
+  width: 250px;
+  height: 150px;
+}
+.project-card {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+}
+#project a {
+  color: var(--cardLink-text-color);
+}
+
+.card {
+  border: solid black 1px;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 1rem;
+  margin: 1rem;
+}
+.card p {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill-box div {
+  height: 100px;
+  width: 100px;
+  background-color: wheat;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+  justify-content: center;
+  margin: 2rem;
+}
+
+.gallery.a {
+  grid-area: a;
+}
+.gallery.b {
+  grid-area: b;
+}
+.gallery.c {
+  grid-area: c;
+}
+.gallery.d {
+  grid-area: d;
+}
+.gallery.e {
+  grid-area: e;
+}
+.gallery.f {
+  grid-area: f;
+}
+.gallery.g {
+  grid-area: g;
+}
+.gallery.h {
+  grid-area: h;
+}
+.gallery.i {
+  grid-area: i;
+}
+/* .gallery div {
+  display: flex;
+} */
+.gallery div img {
+  width: 10vw;
+}
+
+.newHeader {
+  background-image: none;
+  height: 40px;
+}
+.newHeader nav {
+  background-color: black;
+  min-width: 100vw;
+  height: 40px;
+}
+/* .newHeader nav ul li a {
+  color: black;
+} */
